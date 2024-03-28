@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Smol Artist</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+	header{
+		background-image: url("images/header.jpg");
+	}
+	.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+	.card:hover{
+		transform: scale(1.05);
+		box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+	}
+	.jumbo:hover{
+		transform: scale(1.05);
+		box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+	}
+    </style>
+	<link href="css/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="d-flex flex-wrap justify-content-center py-5 mb-0 border-bottom">
+      <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="currentColor" class="bi bi-brush" viewBox="0 0 16 16" symbol id="brush" color="white">
+		<path d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.118 8.118 0 0 1-3.078.132 3.659 3.659 0 0 1-.562-.135 1.382 1.382 0 0 1-.466-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04zM4.705 11.912a1.23 1.23 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.39 3.39 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3.122 3.122 0 0 0 .126-.75l-.793-.792zm1.44.026c.12-.04.277-.1.458-.183a5.068 5.068 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005a.031.031 0 0 1-.007.004zm3.582-3.043.002.001h-.002z"/>
+		</svg>
+        <h4 class="fs-4" style="color:white">Smol Artist Commission Page</h4>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="about.html"style="color:white" class="nav-link">About Us</a></li>
+        <li class="nav-item"><a href="contact.html"style="color:white" class="nav-link">Contact Us</a></li>
+      </ul>
+    </header>
+<main>
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item">
+	  <image class="img-responsive" src="images/traditional.jpg" width="100%" height="100%"></image>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <div style="background-color:white;width:380px;border-radius: 10px;text-align:centre;color:black;"><h1>Traditional Artwork</h1></div>
+            <p style="background-color:black;width:380px;border-radius: 10px;text-align:centre;color:white;">My hand drawn pieces</p>
+            <p><a class="btn btn-lg" style="background-color:#4e2472;text-align:centre;color:white;" href="https://www.instagram.com/maijasauresrex/">Portfolio</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <image class="img-responsive" src="images/wip.jpg" width="100%" height="100%"></image><div class="container">
+          <div class="carousel-caption">
+            <h1>Digital Artwork</h1>
+            <p>Digital pieces using Procreate</p>
+            <p><a class="btn btn-lg"style="background-color:#4e2472;text-align:centre;color:white;"  href="https://procreate.art/">Procreate</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <image class="img-responsive" src="images/commissions.jpg" width="100%" height="100%"></image><div class="container"><div class="container">
+          <div class="carousel-caption text-end">
+            <h1 style="color:black">Past Commissions</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<div class="container marketing">
+    <div class="row">
+        <h2 style="text-align:center">TOOLS OF THE DIGITAL TRADE</h2>
+		<hr>
+      <div class="col-lg-4">
+		<image class="img-responsive rounded-circle" src="images/procreate.jpg" width="140" height="140"></image>
+        <h2>Procreate</h2>
+        <p>What do I use for my Digital Art?</p><p>Procreate is a raster graphics editor app for digital painting developed and published by Savage Interactive for iOS and iPadOS.</p>
+        <p><a class="btn btn" href="https://procreate.art/" style="background-color:#4e2472;color:white">View details »</a></p>
+      </div>
+      <div class="col-lg-4">
+        <image class="img-responsive rounded-circle" src="images/procreateBrushes.png" width="140" height="140"></image>
+		<h2>Free Procreate Brushes</h2>
+        <p>Procreate is an absolute powerhouse when it comes to digital drawing. However, the real power is in the brushes, which you can download many for free. These free brushes are here to help you drastically improve your drawing experience.</p>
+        <p><a class="btn btn" href="https://procreate.brushes.work/category/free-brushes/" style="background-color:#478224;color:white">View details »</a></p>
+		</div>
+      <div class="col-lg-4">
+        <image class="img-responsive rounded-circle" src="images/IpadPen.JPG" width="140"></image>
+		<h2>iPad & Apple Pencil</h2>
+        <p>Currently I'm using the 2021 Apple iPad Pro(11 inch) and the 2nd Generation Apple Pencil.</p><p> The 11-inch iPad Pro is my pick if you want an iPad Pro for drawing.</p>
+        <p><a class="btn btn" href="https://www.apple.com/ie/apple-pencil/" style="background-color:#4e2472;color:white">View details »</a></p>
+		</div>
+    </div>
+<hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-12">
+        <h2 style="background-color:#478224; border-radius: 10px 10px 50px 50px; color:white; text-align:center">Are you looking for a drawing for your loved ones, your family or for yourself??<br>You clicked on the right link!</h2>
+        <p class="lead"style="font-weight: bold;">How does it work?</p><p class="lead">Send me a photo or description of what you want to see in drawing (color or black and white):</p>
+		<ul>
+		<li>Portraits</li>
+		<li>Original characte</li>
+		<li>Fanart</li>
+		<li>Video game characters</li>
+		</ul>
+		<p class="lead">If you are not sure if I can make the drawing, contact me by message and I will inform you as soon as possible about the possibilities!<br>
+		Then choose from the options what you want (portrait(head to shoulder), half body(head to middle torso) or full body). Adding extra people or pets includes an extra cost.</p>
+      </div>
+    </div>
+	<hr class="featurette-divider">
+	<div class="row featurette">
+      <div class="col-md-12">
+        <h2 style="background-color:#688c48; border-radius: 10px 10px 50px 50px; color:white; text-align:center">Terms & Conditions</h2>
+	  </div>
+	  <div class="col-lg-6">
+		<p class="lead"style="font-weight: bold;">General</p>
+		<ul>
+		<li>Digital art only!</li>
+		<li>I have a right to decline some requests</li>
+		</ul>
+		<p class="lead"style="font-weight: bold;">Process</p>
+		<ul>
+		<li>Contact with request</li>
+		<li>Sketch processing and approval</li>
+		<li>Receive updates and open to changes</li>
+		<li>Receive updates and open to changes</li>
+		</ul>
+		<p class="lead"style="font-weight: bold;">Usage</p>
+		<ul>
+		<li>Commissions are for personal use ONLY</li>
+		<li>Work can be posted BUT credit must be given</li>
+		<li>With client's permission, I may post the artwork online and attach to a portfolio</li>
+		</ul>
+		<p class="lead"style="font-weight: bold;">What I wont Draw</p>
+		<ul>
+		<li>Hateful content</li>
+		<li>I have a right to decline some requests</li>
+		</ul>
+		</div>
+		<div class="col-lg-6"style="border-radius: 50px; background-image: url(images/dance.jpg);">
+		
+		</div>
+    </div>
+    <hr class="featurette-divider">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3">
+          <div class="card-header py-5" style="background-image: url(images/portrait.jpg);">
+            <h4 class="my-5 fw-normal" style="color:black">Portrait</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">€15</small>~Portrait</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Add extra Person +€10</li>
+              <li>Add Pet +€5</li>
+              <li>Add Background +€3</li>
+              <li>PNG or JPEG image</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-success">Request</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3">
+          <div class="card-header py-5" style="background-image: url(images/halfbody.jpg);">
+            <h4 class="my-5 fw-normal" style="color:black">Half Body</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">€20</small>~Half Body</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Add extra Person +€15</li>
+              <li>Add Pet +€10</li>
+              <li>Add Background +€5</li>
+              <li>PNG or JPEG image</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-success">Request</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3">
+          <div class="card-header py-5" style="background-image: url(images/fullbody.jpg);">
+            <h4 class="my-5 fw-normal" style="color:black">Full Body</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">€25</small>~Full Body</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Add extra Person +€20</li>
+              <li>Add Pet +€10</li>
+              <li>Add Background +€10</li>
+              <li>PNG or JPEG image</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-success">Request</button>
+          </div>
+        </div>
+      </div>
+    </div>
+	<hr class="featurette-divider">
+	<div class="jumbo p-0 mb-12"style="border-radius:50px;background-image: url(images/plants.jpg);">
+      <div class="container-fluid py-5">
+	   <h1 class="display-5 fw-bold" style="color:white;text-align:center">EDITING AND REFUNDING</h1>
+        <p class="col-md-12 fs-4" style="color:white;text-align:center">Editing and refunding are all acceptable. However:</p>
+		<ul style="color:white">
+		<li>You will be charged an initial amount of 50% before the digital process starts</li>
+		<li>Once the piece is finished, I will be open to changes</li>
+		<li>Once the piece is to the client's liking they will then be charged the rest of the 50% or extra if more was asked</li>
+		<li>If you wish for a refund but the piece is drawn already, a refund will be declined and the client wont be charged the extra 50% and they will not recieve the piece</li>
+		<li>If you wish for a refund and the piece is not drawn, a refund will be accepted</li>
+		</ul>
+      </div>
+    </div>
+	<hr class="featurette-divider">
+	<div class="jumbo p-0 mb-12"style="border-radius:50px;background-color:#478224;">
+      <div class="container-fluid py-5">
+	   <h1 class="display-5 fw-bold" style="color:white;text-align:center">Digital art</h1>
+        <p class="col-md-12 fs-4" style="color:white;text-align:center">Visual art form</p>
+		<p style="color:white;text-align:center">Digital art is an artistic work or practice that uses digital technology as part of the creative or presentation process. 
+		Since the 1960s, various names have been used to describe the process, including computer art and multimedia art. 
+		Digital art is itself placed under the larger umbrella term new media art</p>
+      </div>
+    </div>
+</div>
+  <link href="css/footers.css" rel="stylesheet">
+  <footer style="margin-top:50px">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About Us</a></li>
+      <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact Us</a></li>
+    </ul>
+    <p class="text-center text-muted">© Smol Artist</p>
+  </footer>
+</main>
+<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

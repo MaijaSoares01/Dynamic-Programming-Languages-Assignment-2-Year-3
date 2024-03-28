@@ -1,0 +1,3 @@
+Main Colour: #478224(Green) as student number is C19478224
+
+With PHP installed and Website set up on a server the mail.php works and sends information inputted to specified email
